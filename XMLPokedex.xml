@@ -1,0 +1,181 @@
+<program>
+	<colectie>
+
+		<pokemon>
+			<pokedex_number>1</pokedex_number>
+			<name>Bulbasaur</name>
+			<candy_to_evolve>25</candy_to_evolve>
+			<posible_evolve>true</posible_evolve>
+		</pokemon>
+
+		<pokemon>
+			<pokedex_number>2</pokedex_number>
+			<name>Ivysaur</name>
+			<candy_to_evolve>100</candy_to_evolve>
+			<posible_evolve>true</posible_evolve>
+		</pokemon>
+
+		<pokemon>
+			<pokedex_number>3</pokedex_number>
+			<name>Venusaur</name>
+			<candy_to_evolve>n/a</candy_to_evolve>
+			<posible_evolve>false</posible_evolve>
+		</pokemon>
+
+		<pokemon>
+			<pokedex_number>4</pokedex_number>
+			<name>Charmender</name>
+			<candy_to_evolve>25</candy_to_evolve>
+			<posible_evolve>true</posible_evolve>
+		</pokemon>
+
+		<pokemon>
+			<pokedex_number>5</pokedex_number>
+			<name>Charmeleon</name>
+			<candy_to_evolve>100</candy_to_evolve>
+			<posible_evolve>true</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>6</pokedex_number>
+			<name>Charizard</name>
+			<candy_to_evolve>n/a</candy_to_evolve>
+			<posible_evolve>false</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>7</pokedex_number>
+			<name>Squirtle</name>
+			<candy_to_evolve>25</candy_to_evolve>
+			<posible_evolve>true</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>8</pokedex_number>
+			<name>Wartortle</name>
+			<candy_to_evolve>100</candy_to_evolve>
+			<posible_evolve>true</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>9</pokedex_number>
+			<name>Blastoise</name>
+			<candy_to_evolve>n/a</candy_to_evolve>
+			<posible_evolve>false</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>10</pokedex_number>
+			<name>Caterpie</name>
+			<candy_to_evolve>12</candy_to_evolve>
+			<posible_evolve>true</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>11</pokedex_number>
+			<name>Metapod</name>
+			<candy_to_evolve>50</candy_to_evolve>
+			<posible_evolve>true</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>12</pokedex_number>
+			<name>Beedrill</name>
+			<candy_to_evolve>n/a</candy_to_evolve>
+			<posible_evolve>false</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>13</pokedex_number>
+			<name>Weedle</name>
+			<candy_to_evolve>12</candy_to_evolve>
+			<posible_evolve>true</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>14</pokedex_number>
+			<name>Kakuna</name>
+			<candy_to_evolve>50</candy_to_evolve>
+			<posible_evolve>true</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>15</pokedex_number>
+			<name>Butterfree</name>
+			<candy_to_evolve>50</candy_to_evolve>
+			<posible_evolve>false</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>16</pokedex_number>
+			<name>Pidgey</name>
+			<candy_to_evolve>12</candy_to_evolve>
+			<posible_evolve>true</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>17</pokedex_number>
+			<name>Pidgeotto</name>
+			<candy_to_evolve>50</candy_to_evolve>
+			<posible_evolve>true</posible_evolve>
+		</pokemon>
+		
+		<pokemon>
+			<pokedex_number>18</pokedex_number>
+			<name>Pigeot</name>
+			<candy_to_evolve>n/a</candy_to_evolve>
+			<posible_evolve>false</posible_evolve>
+		</pokemon>
+		
+	<gyms>
+		<gym>
+			<gym_name>Valor</gym_name>
+			<gym_color>Red</gym_color>
+			<gym_leader>Candela</gym_leader>
+		</gym>
+		
+		<gym>
+			<gym_name>Valor</gym_name>
+			<gym_color>Red</gym_color>
+			<gym_leader>Candela</gym_leader>
+		</gym>
+		
+		<gym>
+			<gym_name>Mystic</gym_name>
+			<gym_color>Blue</gym_color>
+			<gym_leader>Blanche</gym_leader>
+		</gym>
+		
+		<gym>
+			<gym_name>Instinct</gym_name>
+			<gym_color>Yellow</gym_color>
+			<gym_leader>Spark</gym_leader>
+		</gym>
+	</gyms>
+	
+	</colectie>
+<Reguli>	
+		
+	<regula>
+		<if>
+			<fapta1>Nr_candy_need</fapta1>
+			<fapta2>posible_evolve</fapta2>
+		</if>
+		<then>
+			<numeRegula>Evolve</numeRegula>
+		</then>
+	</regula>
+
+	<regula>
+		<if>
+			<fapta1>Region_Specific</fapta1>
+		</if>
+		<then>
+			<numeRegula>Unlock_Region_Specific_Pokemon</numeRegula>
+		</then>
+	</regula>
+</Reguli>	
+	
+	
+</program>
+	
